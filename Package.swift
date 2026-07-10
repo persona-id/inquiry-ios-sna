@@ -3,7 +3,7 @@ import PackageDescription
 
 let package = Package(
   name: "PersonaSna",
-  platforms: [.iOS(.v15)],
+  platforms: [.iOS("15.0")],
   products: [
     .library(
       name: "PersonaSna",
@@ -13,8 +13,8 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "PersonaSna",
-      url: "https://github.com/persona-id/inquiry-ios-sna/releases/download/2.51.0/PersonaSna.xcframework.zip",
-      checksum: "2c2127f583f20e87cea2204615da06c817120a2788827757cc827b3230c0fb82"
+      url: "https://storage.googleapis.com/sdk.withpersona.com/ios/v2/releases/3.5.0-beta.1/PersonaSna.xcframework.zip",
+      checksum: "8295458af0411df32814636284b5df04523fa5198ae3a9a85ca4eb307d15338e"
     )
   ]
 )
