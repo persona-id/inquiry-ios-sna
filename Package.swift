@@ -13,8 +13,8 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "PersonaSna",
-      url: "https://storage.googleapis.com/sdk.withpersona.com/ios/v2/releases/3.6.1-beta.1/PersonaSna.xcframework.zip",
-      checksum: "d28ce5d95152a4b9d3d06683fc05c7a4b3e1512a13cd00f715c954053d1981cf"
+      url: "https://storage.googleapis.com/sdk.withpersona.com/ios/v2/releases/3.6.1-beta.2/PersonaSna.xcframework.zip",
+      checksum: "51ef3fb3c43223204d1b89c29ea92d78d08e29b667b0bd1bf985af520b1dee0a"
     )
   ]
 )
